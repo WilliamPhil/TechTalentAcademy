@@ -1,0 +1,85 @@
+body{
+    margin: 1%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+
+
+ a {
+  color: black;
+  text-align: center;
+  padding: 5px 16px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.menu ul li{
+    float: right;
+    padding-top: 30px;
+}
+
+
+/*#home{
+    
+  border: solid #2AC7C7;
+  color: black;
+
+}*/
+
+#footer{
+    padding: 50px 10px;  
+    background-color:#2CD1D1;
+    margin-top: 30%;
+    color: white;
+    text-align: center;
+}
+
+
+#footer p{
+    margin: 2%;
+}
+
+#footer div a{
+    color: white;
+}
+
+.content{
+    margin: 3%;
+    text-align: center;
+}
+
+hr{
+    color:#3D7B80;
+}
+
+.page-title{
+
+    text-align: center;
+    color: white;
+    background-color: #2CD1D1;
+    padding: 80px 80px;
+    font-size: 25px;
+}
+
+
+.menu ul li:hover a, body.homepage li.home, body.contact-page li.contact, body.academy-page li.academy, body.about-page li.about{
+    text-decoration: underline;
+    color: #000;
+}
+
+.menu ul li:active a, body.homepage li.home a,body.contact-page li.contact a, body.academy-page li.academy a, body.about-page li.about a {
+    color: #2AC7C7;
+}
+
+.text-format{
+    text-align: center;
+    margin: 2%;
+}
