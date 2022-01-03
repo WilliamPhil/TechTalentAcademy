@@ -1,3 +1,7 @@
+
+/*create database hotel*/
+create database hotel;
+
 /*create table using primary key*/
 /*Manager: mid, name, shift, salary*/
 
