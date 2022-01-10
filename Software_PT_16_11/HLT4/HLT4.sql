@@ -37,12 +37,8 @@ values(5, 'jill', 'day', 2000),
 	(6, 'will', 'night', 5000),
     (7, 'james', 'day', 5000),
     (8, 'jack', 'night', 5000),
-    (9, 'cliff', 'night', 2500),
-    (10, 'zion', 'day', 5000),
-    (4, 'prince', 'day', 3000),
-    (3, 'cain', 'day', 5000),
-    (2, 'abel', 'night', 5000),
-    (1, 'chris', 'night', 3000);
+    (9, 'cliff', 'night', 5000),
+    (10, 'zion', 'night', 5000);
     
     
 insert into item(itemid, dish, price, category)
