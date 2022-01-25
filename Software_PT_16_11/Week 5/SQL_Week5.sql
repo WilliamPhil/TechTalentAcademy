@@ -10,6 +10,20 @@ sub varchar(100),
 score double
 );
 
+/*create employee table*/
+/*eid, ename, email, mobile, designation, salary*/
+create table employee(
+eid int primary key,
+ename varchar(100),
+email varchar(100),
+mobile varchar(100),
+designation varchar(100),
+salary double
+);
+
+/*display all employee*/
+select * from employee;
+
 /*add record insert query*/
 insert into student(sid, sname, sub, score)
 values(1, 'William', 'Data', 90.1);
@@ -25,8 +39,5 @@ where sid = 1;
 select * from student;
 
 select * from student where score >= 50 and score <=100;
-
-/*delete table from database*/
-drop table student;
 
 
